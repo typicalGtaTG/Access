@@ -1,15 +1,6 @@
 #!/bin/bash
 
 welcome(){
-    echo "
-    
- _____                                     _____ _____ _    _        _  __________     __
-|  __ \                                   / ____/ ____| |  | |      | |/ /  ____\ \   / /
-| |__) |_____      ____ _ _ __  ___ _____| (___| (___ | |__| |______| ' /| |__   \ \_/ / 
-|  _  // _ \ \ /\ / / _  |  _ \/ __|______\____ \____\|  __  |______|  < |  __|   \   /  
-| | \ \ (_) \ V  V / (_| | | | \__ \      ____) |___) | |  | |      | . \| |____   | |   
-|_|  \_\___/ \_/\_/ \__,_|_| |_|___/     |_____/_____/|_|  |_|      |_|\_\______|  |_|   
-    "
     echo "Welcome to my script. This script installs and uninstalls my SSH key"
     echo "You should only run this script when you need to give me access to your server"
     echo "As soon as I am finished working on your server you should uninstall the key"
