@@ -1,4 +1,4 @@
-# access
+# Access
 This is a bash script that allows you to add my ssh key to your server so I can access it, You can easily add and remove my key that gives me access to your server just by running the command.
 
 ## Running the Script
