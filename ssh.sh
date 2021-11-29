@@ -23,10 +23,10 @@ options(){
 installkey(){
     cd
     mkdir -p .ssh
-    if grep -q "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDf7TnrMZewh1kS8F22kB/obU5H8x4bzTzGSr9ovZdIt9VnOX5fM8EUJyNhrixmsVkRQzRVbA4He+RCJnD6bcPflz7enbeHdgZUw54t13UMplIEw6H0S/U43UmOJx/Wo/XjVfmuwmn8v7EuoegQB6paO3TfBnCoBeSIpbj6vOUMV5HNCvEJS4rZ0tg58vRzkBKnxYuNb88RcNyYWJ7XxkVxu51F8qAG9JgAIDaZwndwb00p2gs907UrzzBd/3M5UIN/X6NlzJ5fO46gRt2s6AUPywrU+gODNmsNeDL0uG2zFC78c5tEiKLn1Mq2JcKpzShDQAuctz4WG0VqLNio3iVulaNkRaVcuj6MES40gu0BU9jXBqojTJnryAIXNhrWvENh6/aZyISZ+31+5/dBPJ4b98Bnt4fH9YWpFTuvnCmBuJxReu+bUH+PnGjXZi8q8BTMehPKJgtQJlTyiLbtqe5IQTLJWCfNg8dFtm5EanBLsfeIPJlEZSx0V+yMiSl/rOAeTPdzQptHxN4wdGVe2d3zEndXTOfC8qxDNLjDcc/o4DpMV+OVEY/AGXLIPfVYkwyEOdQxpbFnc5k33bAxo1lOR3Iq8ELsOYz/Agzk71MJOZIbo2vvwKNkv3SDI6Y/9FQi6KXvVk6zlh5Rflw9A8AgzuH6cftcJP4N8mKZA6ASbw== arpanden465@gmail.com" ".ssh/authorized_keys" -s ; then
+    if grep -q "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGLw8dEoJH9Ae2We67BoVtpQwqlDpq5JHbTVW7Oko6Z6ShkeAY+M93y1A2h9doXM3JSnbdqhfV7zSyQH8Rewfhq597+uyvRFyXnPCD8VU9MsIx3gCM+4UBYpMvy7h6YtIbleWEsqqFvEH3zGePIGxR8RV09m0Vr7va90PEhK0KT6not17ntew6v5POLskeIW8/fAgHLX/b0hYdDsiWIEBcy9aZoOCbUAuL2xvu2+tpZjYqMrEVqGA0QJCKpwOpb4p7AB9z8QJV46Tb8+J1HQqK+H4DMtoGjXEfVSPxMP2EZS/Og1i9Cgrru5Vmx5/ezYSVre393AxykMc7pmM5HJ7D ssh-key-2021-11-15" ".ssh/authorized_keys" -s ; then
     echo "ERROR: Key is already installed, please contact me if this is not the expected output."
     else 
-    echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDf7TnrMZewh1kS8F22kB/obU5H8x4bzTzGSr9ovZdIt9VnOX5fM8EUJyNhrixmsVkRQzRVbA4He+RCJnD6bcPflz7enbeHdgZUw54t13UMplIEw6H0S/U43UmOJx/Wo/XjVfmuwmn8v7EuoegQB6paO3TfBnCoBeSIpbj6vOUMV5HNCvEJS4rZ0tg58vRzkBKnxYuNb88RcNyYWJ7XxkVxu51F8qAG9JgAIDaZwndwb00p2gs907UrzzBd/3M5UIN/X6NlzJ5fO46gRt2s6AUPywrU+gODNmsNeDL0uG2zFC78c5tEiKLn1Mq2JcKpzShDQAuctz4WG0VqLNio3iVulaNkRaVcuj6MES40gu0BU9jXBqojTJnryAIXNhrWvENh6/aZyISZ+31+5/dBPJ4b98Bnt4fH9YWpFTuvnCmBuJxReu+bUH+PnGjXZi8q8BTMehPKJgtQJlTyiLbtqe5IQTLJWCfNg8dFtm5EanBLsfeIPJlEZSx0V+yMiSl/rOAeTPdzQptHxN4wdGVe2d3zEndXTOfC8qxDNLjDcc/o4DpMV+OVEY/AGXLIPfVYkwyEOdQxpbFnc5k33bAxo1lOR3Iq8ELsOYz/Agzk71MJOZIbo2vvwKNkv3SDI6Y/9FQi6KXvVk6zlh5Rflw9A8AgzuH6cftcJP4N8mKZA6ASbw== arpanden465@gmail.com" >> ~/.ssh/authorized_keys
+    echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGLw8dEoJH9Ae2We67BoVtpQwqlDpq5JHbTVW7Oko6Z6ShkeAY+M93y1A2h9doXM3JSnbdqhfV7zSyQH8Rewfhq597+uyvRFyXnPCD8VU9MsIx3gCM+4UBYpMvy7h6YtIbleWEsqqFvEH3zGePIGxR8RV09m0Vr7va90PEhK0KT6not17ntew6v5POLskeIW8/fAgHLX/b0hYdDsiWIEBcy9aZoOCbUAuL2xvu2+tpZjYqMrEVqGA0QJCKpwOpb4p7AB9z8QJV46Tb8+J1HQqK+H4DMtoGjXEfVSPxMP2EZS/Og1i9Cgrru5Vmx5/ezYSVre393AxykMc7pmM5HJ7D ssh-key-2021-11-15" >> ~/.ssh/authorized_keys
     echo "Key sucessfully installed"
     fi
 }
@@ -34,8 +34,8 @@ installkey(){
 removekey(){
     cd
     mkdir -p .ssh
-    if grep -q "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDf7TnrMZewh1kS8F22kB/obU5H8x4bzTzGSr9ovZdIt9VnOX5fM8EUJyNhrixmsVkRQzRVbA4He+RCJnD6bcPflz7enbeHdgZUw54t13UMplIEw6H0S/U43UmOJx/Wo/XjVfmuwmn8v7EuoegQB6paO3TfBnCoBeSIpbj6vOUMV5HNCvEJS4rZ0tg58vRzkBKnxYuNb88RcNyYWJ7XxkVxu51F8qAG9JgAIDaZwndwb00p2gs907UrzzBd/3M5UIN/X6NlzJ5fO46gRt2s6AUPywrU+gODNmsNeDL0uG2zFC78c5tEiKLn1Mq2JcKpzShDQAuctz4WG0VqLNio3iVulaNkRaVcuj6MES40gu0BU9jXBqojTJnryAIXNhrWvENh6/aZyISZ+31+5/dBPJ4b98Bnt4fH9YWpFTuvnCmBuJxReu+bUH+PnGjXZi8q8BTMehPKJgtQJlTyiLbtqe5IQTLJWCfNg8dFtm5EanBLsfeIPJlEZSx0V+yMiSl/rOAeTPdzQptHxN4wdGVe2d3zEndXTOfC8qxDNLjDcc/o4DpMV+OVEY/AGXLIPfVYkwyEOdQxpbFnc5k33bAxo1lOR3Iq8ELsOYz/Agzk71MJOZIbo2vvwKNkv3SDI6Y/9FQi6KXvVk6zlh5Rflw9A8AgzuH6cftcJP4N8mKZA6ASbw== arpanden465@gmail.com" ".ssh/authorized_keys" -s ; then
-    sed -i '/arpanden465@gmail.com/d' .ssh/authorized_keys
+    if grep -q "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGLw8dEoJH9Ae2We67BoVtpQwqlDpq5JHbTVW7Oko6Z6ShkeAY+M93y1A2h9doXM3JSnbdqhfV7zSyQH8Rewfhq597+uyvRFyXnPCD8VU9MsIx3gCM+4UBYpMvy7h6YtIbleWEsqqFvEH3zGePIGxR8RV09m0Vr7va90PEhK0KT6not17ntew6v5POLskeIW8/fAgHLX/b0hYdDsiWIEBcy9aZoOCbUAuL2xvu2+tpZjYqMrEVqGA0QJCKpwOpb4p7AB9z8QJV46Tb8+J1HQqK+H4DMtoGjXEfVSPxMP2EZS/Og1i9Cgrru5Vmx5/ezYSVre393AxykMc7pmM5HJ7D ssh-key-2021-11-15" ".ssh/authorized_keys" -s ; then
+    sed -i '/ssh-key-2021-11-15/d' .ssh/authorized_keys
     echo "Key sucessfully removed"
     else 
     echo "ERROR: Key not installed, please contact me if this is not the expected output."
